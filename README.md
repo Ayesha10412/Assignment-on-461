@@ -77,7 +77,7 @@ JavaScript handles memory management automatically through garbage collection. T
 Arrays in JavaScript are always heap-allocated and can be resized dynamically.
 Topic: Heap Dynamic
  Explanation:
-🔹 C++:
+ C++:
 The array is managed using std::vector<int> arr; which is a dynamic array in C++.
 
 Memory is allocated on the heap for the vector, and elements can be added dynamically using push_back().
@@ -88,7 +88,7 @@ Automatic memory management is done by the vector class in C++, but the programm
 
 The vector uses dynamic memory to handle data as the program runs, allowing flexibility.
 
-🔸 JavaScript:
+ JavaScript:
 The array let arr = []; is dynamically allocated on the heap.
 
 JavaScript arrays are always dynamic and can grow or shrink at any time.
